@@ -1,0 +1,33 @@
+{
+  "name": "express-etaggable",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/express-etaggable.git"
+  },
+  "keywords": [
+    "express",
+    "etag",
+    "cache"
+  ],
+  "author": "Alexandru Vladutu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/express-etaggable/issues"
+  },
+  "homepage": "https://github.com/alessioalex/express-etaggable",
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "express": "~4.6.1",
+    "supertest": "~0.13.0"
+  }
+}
