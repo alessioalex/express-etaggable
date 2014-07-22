@@ -1,6 +1,7 @@
 # express-etaggable
 
 Express middleware that handles the Etag caching mechanism for you and only calls the dynamic function to load the content when needed.
+[![Build Status](https://travis-ci.org/alessioalex/express-etaggable.svg?branch=master)](https://travis-ci.org/alessioalex/express-etaggable)
 
 ## Usage
 
