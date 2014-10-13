@@ -10,7 +10,7 @@ Express middleware that handles the Etag caching mechanism for you and only call
 ### Example:
 
 ```js
-var etaggable = require('../');
+var etaggable = require('express-etaggable');
 var express = require('express');
 var app = express();
 
